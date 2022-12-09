@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EA2F272D2940862100D3B89C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F272C2940862100D3B89C /* AppDelegate.swift */; };
-		EA2F272F2940862100D3B89C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F272E2940862100D3B89C /* SceneDelegate.swift */; };
 		EA2F27312940862100D3B89C /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F27302940862100D3B89C /* ConversationsViewController.swift */; };
 		EA2F27342940862100D3B89C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2F27322940862100D3B89C /* Main.storyboard */; };
 		EA2F27362940862200D3B89C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2F27352940862200D3B89C /* Assets.xcassets */; };
@@ -33,12 +32,18 @@
 		EA2F27882941BDBA00D3B89C /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F27872941BDBA00D3B89C /* VideoPlayerViewController.swift */; };
 		EA2F278A2941BDD700D3B89C /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F27892941BDD700D3B89C /* NewConversationViewController.swift */; };
 		EA2F278C2941BDDF00D3B89C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F278B2941BDDF00D3B89C /* ProfileViewController.swift */; };
+		EA411B332941FADC006D9167 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA411B322941FADC006D9167 /* ActivityViewController.swift */; };
+		EA411B352941FAEC006D9167 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA411B342941FAEC006D9167 /* TeamsViewController.swift */; };
+		EA411B372941FB0A006D9167 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA411B362941FB0A006D9167 /* CalendarViewController.swift */; };
+		EA411B392941FB17006D9167 /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA411B382941FB17006D9167 /* CallsViewController.swift */; };
+		EA411B3B2941FB28006D9167 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA411B3A2941FB28006D9167 /* MoreViewController.swift */; };
+		EA411B4029420979006D9167 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA411B3E29420979006D9167 /* CustomNavigationBar.swift */; };
+		EA411B4129420979006D9167 /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA411B3F29420979006D9167 /* CustomNavigationBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA2F27292940862100D3B89C /* TeamsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2F272C2940862100D3B89C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA2F272E2940862100D3B89C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EA2F27302940862100D3B89C /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		EA2F27332940862100D3B89C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA2F27352940862200D3B89C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +69,13 @@
 		EA2F27872941BDBA00D3B89C /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		EA2F27892941BDD700D3B89C /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		EA2F278B2941BDDF00D3B89C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EA411B322941FADC006D9167 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		EA411B342941FAEC006D9167 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		EA411B362941FB0A006D9167 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		EA411B382941FB17006D9167 /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewController.swift; sourceTree = "<group>"; };
+		EA411B3A2941FB28006D9167 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		EA411B3E29420979006D9167 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		EA411B3F29420979006D9167 /* CustomNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,7 @@
 		EA2F272B2940862100D3B89C /* TeamsChat */ = {
 			isa = PBXGroup;
 			children = (
+				EA411B3C29420950006D9167 /* CustomViews */,
 				EA2F277E2941BAC200D3B89C /* Resources */,
 				EA2F27402940935400D3B89C /* ViewModel */,
 				EA2F27482940935500D3B89C /* Views */,
@@ -186,7 +199,6 @@
 			isa = PBXGroup;
 			children = (
 				EA2F272C2940862100D3B89C /* AppDelegate.swift */,
-				EA2F272E2940862100D3B89C /* SceneDelegate.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -194,14 +206,18 @@
 		EA2F277F2941BB4C00D3B89C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EA2F278D2941D42100D3B89C /* Login */,
 				EA2F27302940862100D3B89C /* ConversationsViewController.swift */,
 				EA2F274A2940935500D3B89C /* CustomTableViewCell.swift */,
-				EA2F27812941BD6A00D3B89C /* LoginViewController.swift */,
-				EA2F27832941BD7300D3B89C /* RegisterViewController.swift */,
 				EA2F27852941BDA700D3B89C /* PhotoViewerViewController.swift */,
 				EA2F27872941BDBA00D3B89C /* VideoPlayerViewController.swift */,
 				EA2F27892941BDD700D3B89C /* NewConversationViewController.swift */,
 				EA2F278B2941BDDF00D3B89C /* ProfileViewController.swift */,
+				EA411B322941FADC006D9167 /* ActivityViewController.swift */,
+				EA411B342941FAEC006D9167 /* TeamsViewController.swift */,
+				EA411B362941FB0A006D9167 /* CalendarViewController.swift */,
+				EA411B382941FB17006D9167 /* CallsViewController.swift */,
+				EA411B3A2941FB28006D9167 /* MoreViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,6 +229,32 @@
 				EA2F27372940862200D3B89C /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EA2F278D2941D42100D3B89C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EA2F27812941BD6A00D3B89C /* LoginViewController.swift */,
+				EA2F27832941BD7300D3B89C /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EA411B3C29420950006D9167 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EA411B3D29420979006D9167 /* CustomNavigationBar */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		EA411B3D29420979006D9167 /* CustomNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				EA411B3E29420979006D9167 /* CustomNavigationBar.swift */,
+				EA411B3F29420979006D9167 /* CustomNavigationBar.xib */,
+			);
+			path = CustomNavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +318,7 @@
 				EA2F27392940862200D3B89C /* LaunchScreen.storyboard in Resources */,
 				EA2F27362940862200D3B89C /* Assets.xcassets in Resources */,
 				EA2F27342940862100D3B89C /* Main.storyboard in Resources */,
+				EA411B4129420979006D9167 /* CustomNavigationBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,23 +332,28 @@
 				EA2F27822941BD6A00D3B89C /* LoginViewController.swift in Sources */,
 				EA2F27502940935500D3B89C /* CustomTableViewCell.swift in Sources */,
 				EA2F277029409DA400D3B89C /* UITextField.swift in Sources */,
+				EA411B332941FADC006D9167 /* ActivityViewController.swift in Sources */,
 				EA2F27882941BDBA00D3B89C /* VideoPlayerViewController.swift in Sources */,
+				EA411B372941FB0A006D9167 /* CalendarViewController.swift in Sources */,
 				EA2F274E2940935500D3B89C /* ApiClient.swift in Sources */,
 				EA2F27842941BD7300D3B89C /* RegisterViewController.swift in Sources */,
 				EA2F274B2940935500D3B89C /* DataViewModel.swift in Sources */,
 				EA2F274D2940935500D3B89C /* Data.swift in Sources */,
 				EA2F27312940862100D3B89C /* ConversationsViewController.swift in Sources */,
+				EA411B4029420979006D9167 /* CustomNavigationBar.swift in Sources */,
 				EA2F277B2940A10500D3B89C /* TeamsChatUIGenericConfigurationProtocol.swift in Sources */,
 				EA2F276D29409DA400D3B89C /* Date.swift in Sources */,
 				EA2F275429409BAE00D3B89C /* ChatUIConfiguration.swift in Sources */,
+				EA411B392941FB17006D9167 /* CallsViewController.swift in Sources */,
+				EA411B352941FAEC006D9167 /* TeamsViewController.swift in Sources */,
 				EA2F276F29409DA400D3B89C /* UIColor.swift in Sources */,
 				EA2F277129409DA400D3B89C /* String.swift in Sources */,
+				EA411B3B2941FB28006D9167 /* MoreViewController.swift in Sources */,
 				EA2F274C2940935500D3B89C /* UIViewController+Extensions.swift in Sources */,
 				EA2F278C2941BDDF00D3B89C /* ProfileViewController.swift in Sources */,
 				EA2F276E29409DA400D3B89C /* UIView.swift in Sources */,
 				EA2F278A2941BDD700D3B89C /* NewConversationViewController.swift in Sources */,
 				EA2F272D2940862100D3B89C /* AppDelegate.swift in Sources */,
-				EA2F272F2940862100D3B89C /* SceneDelegate.swift in Sources */,
 				EA2F27862941BDA700D3B89C /* PhotoViewerViewController.swift in Sources */,
 				EA2F277229409DA400D3B89C /* UIImage.swift in Sources */,
 				EA2F276C29409DA400D3B89C /* UIScrollView.swift in Sources */,
@@ -458,6 +506,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeamsChat/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to Use Photo for a profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -490,6 +540,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeamsChat/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to Use Photo for a profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
